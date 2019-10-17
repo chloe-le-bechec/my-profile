@@ -1,0 +1,138 @@
+/* Colors and font*/
+
+
+body {
+	background-color: rgb(230, 230, 230);
+	color: #374A67;
+	font-family: 'Niramit', sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+
+h1 {
+	font-family: 'Patrick Hand SC', cursive;
+	color: #C191A1;
+	font-size: 45px;
+	font-weight: bolder;
+	margin: 0px auto;
+}
+
+h2 {
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 32px;
+	font-weight: lighter;
+	width: 390px;
+	margin: 0px auto;
+}
+
+
+a{
+	text-decoration: none;
+	color: #759EB8;
+	transition: color 0.3s ease;
+	font-weight: bolder;
+}
+
+a:hover{
+	color: #BCD8C1;
+	font-weight: bolder;
+}
+
+
+/*Custom designs with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+
+.img-circle {
+	border-radius: 50%;
+}
+
+
+.btn-blue {
+	background-color: #759EB8;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color: grey;
+	color:white;
+}
+
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+.list-inline li {
+	display: inline;
+	padding: 30px;
+	padding-top: 10px;
+}
+
+
+.list-inline i {
+	font-size: 40px;
+	color: #759EB8;
+}
+
+
+.list-inline i:hover{
+	color: grey;
+}
+
+
+/*Design adjustments using id*/
+
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+
+#introduction img{
+	margin-top: 20px;
+}
+
+
+
+
